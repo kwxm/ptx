@@ -31,7 +31,7 @@ incrThing (IThing n) = IThing (n Tx.+ 1)
 
 
 
-{-  A more complicated example, closer to the actual program. -}
+{-  A more complicated example, closer to the program I'm really trying to build. -}
 
 data Thing = Thing Tx.Integer [Tx.Integer]
 
