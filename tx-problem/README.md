@@ -7,4 +7,8 @@ Context: Compiling kind: *
                          -> TYPE ('GHC.Types.TupleRep '[ 'GHC.Types.LiftedRep])
 ```
 
-`stack run` should reproduce this, although `stack.yaml` will have to be modified to point to the correct Plutus directory.
+`stack run` should reproduce this, although `stack.yaml` will have to
+be modified to point to the correct Plutus directory.
+
+I'm not sure whether this is a genuine problem or if I just shouldn't be trying
+to do it.  
