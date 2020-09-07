@@ -1,5 +1,5 @@
 # tx-problem
-This has a couple of examples illustrating a problem I ran into.  Some datatyeps and functions are defined in Lib.hs, but trying to convert them into PLC in Main.hs causes a plugin error when you try to run `Main.hs`:
+This has a couple of examples illustrating a problem I ran into.  Some datatypes and functions are defined in `Lib.hs`, but trying to convert them into PLC in `Main.hs` causes a plugin error when you try to run the program:
 
 ```
 tx-problem-exe: Error: Unsupported feature: Kind: * -> TYPE ('GHC.Types.TupleRep '[ 'GHC.Types.LiftedRep])
