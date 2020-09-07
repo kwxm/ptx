@@ -29,10 +29,11 @@ data IThing = IThing Tx.Integer
 incrThing :: IThing -> IThing
 incrThing (IThing n) = IThing (n Tx.+ 1)
 
-data Thing = Thing Tx.Integer [Tx.Integer]
 
 
 {-  A more complicated example, closer to the actual program. -}
+
+data Thing = Thing Tx.Integer [Tx.Integer]
 
 {-# INLINABLE last #-}
 last :: [a] -> a
