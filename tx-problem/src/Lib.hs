@@ -70,8 +70,9 @@ deleteFirst (Thing f ts) =
         where ts' = init2 ts  -- OK with init1
               f' = last ts'   -- OK with secondLast ts
 
-{- If you run the main program with this definition of deleteFirst then
-   you get a message
+{- If you run the main program (modified to call
+   `Tx.compile [|| Lib.deleteFirst ||]`) with this definition
+    of deleteFirst then you get a message
 
      tx-problem-exe: Error: Unsupported feature: Kind: *
              -> *
